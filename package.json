@@ -1,0 +1,22 @@
+{
+  "name": "ezy-metrics-backend",
+  "version": "1.0.0",
+  "description": "Backend for EzyMetrics focusing on data integrations and reporting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "json-2-csv": "^5.5.6",
+    "mongodb": "^6.10.0",
+    "mongoose": "^7.8.2",
+    "nodemailer": "^6.7.5",
+    "path": "^0.12.7",
+    "pdfkit": "^0.13.0"
+  },
+  "author": "Kartik",
+  "license": "ISC"
+}
